@@ -15,17 +15,17 @@ namespace RL {
 
 		/*to introduce a notion of time
 		*/
-		virtual void nextIteration() = 0;
+		virtual void nextIteration();
 
 		/*to bind a specific experiment
 		*/
-		virtual void setExperiment(RLEnvironment* const) = 0;
+		virtual void setExperiment(RLEnvironment* const);
 
 	protected:
-		RLEnvironment* experiment;
-		RLAgent* agent;
-		RLLearning* learning;
-		RLQtable* qTable;
+		RLEnvironment* environment;
+		RLAgent*       agent;
+		RLLearning*    learning;
+		RLQtable*      qTable;
 
 
 		unsigned int tick;

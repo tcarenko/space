@@ -9,7 +9,7 @@ RLExperiment pure abstract class
 <member name="T:RL.RLAction" decl="false" source="c:\users\it\dropbox\reinforcement\rl_lib\rl_lib\rl_lib\rlaction.h" line="6">
 RLAction pure abstract class
 </member>
-<member name="T:RL.RLAgent" decl="false" source="c:\users\it\dropbox\reinforcement\rl_lib\rl_lib\rl_lib\rlagent.h" line="8">
+<member name="T:RL.RLAgent" decl="false" source="c:\users\it\dropbox\reinforcement\rl_lib\rl_lib\rl_lib\rlagent.h" line="9">
 RLAgent pure abstract class
 </member>
 <member name="T:RL.RLLearning" decl="false" source="c:\users\it\dropbox\reinforcement\rl_lib\rl_lib\rl_lib\rllearning.h" line="6">

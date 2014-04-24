@@ -1,4 +1,4 @@
-﻿Сборка начата 23.04.2014 14:25:14.
+﻿Сборка начата 24.04.2014 21:20:05.
      1>Проект "C:\Users\IT\Dropbox\reinforcement\rl_lib\rl_lib\rl_lib\rl_lib.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
          Создание "Debug\rl_lib.unsuccessfulbuild", так как было задано "AlwaysCreate".
@@ -26,4 +26,4 @@
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:14.80
+Затраченное время: 00:00:00.70
