@@ -1,0 +1,27 @@
+﻿Построение начато 29.11.2012 21:04:55.
+     1>Проект "C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\puzzlediff\puzzlediff.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "x64\Release\puzzlediff.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "x64\Release\puzzlediff.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 13.0
+       ClCompile:
+         ***** ClCompile (x64 - Intel C++)
+         C:\Program Files (x86)\Intel\Composer XE 2013\bin\Intel64\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin\x86_amd64" /I"C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\libpuzzle" /Zi /nologo /W3 /O2 /Qftz- /D __INTEL_COMPILER=1300 /D WIN32 /D NDEBUG /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Qstd=c99 /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TC pgetopt.c "puzzle-diff.c"
+         pgetopt.c
+         puzzle-diff.c
+       Link:
+         C:\Program Files (x86)\Intel\Composer XE 2013\bin\Intel64\xilink.exe /OUT:"C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\x64\Release\puzzlediff.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\x64\Release\\" /LIBPATH:"C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\\dependencies\\" zlib.lib jpeg.lib libpng15_static.lib "bgd-static.lib" libpuzzle.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\puzzlediff.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\x64\Release\puzzlediff.pdb" /qnoipo /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\x64\Release\puzzlediff.lib" /MACHINE:X64 x64\Release\pgetopt.obj
+         "x64\Release\puzzle-diff.obj"
+         puzzlediff.vcxproj -> C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\x64\Release\puzzlediff.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\x64\mt.exe /nologo /verbose /outputresource:"C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\x64\Release\puzzlediff.exe;#1" /manifest x64\Release\puzzlediff.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "x64\Release\puzzlediff.unsuccessfulbuild" удаляется.
+         Обращение к "x64\Release\puzzlediff.lastbuildstate".
+     1>Построение проекта "C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\puzzlediff\puzzlediff.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:00.47

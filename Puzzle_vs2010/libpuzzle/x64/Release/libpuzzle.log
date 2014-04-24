@@ -1,0 +1,34 @@
+﻿Построение начато 29.11.2012 21:04:53.
+     1>Проект "C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\libpuzzle\libpuzzle.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "x64\Release\libpuzzle.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "x64\Release\libpuzzle.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 13.0
+       ClCompile:
+         ***** ClCompile (x64 - Intel C++)
+         C:\Program Files (x86)\Intel\Composer XE 2013\bin\Intel64\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin\x86_amd64" /I"C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\\dependencies\libgd-include" /Zi /nologo /W3 /debug:expr-source-pos /O2 /Oi /Qipo /Qftz- /D __INTEL_COMPILER=1300 /D _MBCS /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Qstd=c99 /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /TC compress.c cvec.c dvec.c puzzle.c tunables.c vector_ops.c
+         compress.c
+         cvec.c
+         dvec.c
+         puzzle.c
+         tunables.c
+         vector_ops.c
+       Lib:
+         C:\Program Files (x86)\Intel\Composer XE 2013\bin\Intel64\xilib.exe /OUT:"C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\x64\Release\libpuzzle.lib" /NOLOGO x64\Release\compress.obj
+         x64\Release\cvec.obj
+         x64\Release\dvec.obj
+         x64\Release\puzzle.obj
+         x64\Release\tunables.obj
+         x64\Release\vector_ops.obj
+         xilib: executing 'lib'
+         libpuzzle.vcxproj -> C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\x64\Release\libpuzzle.lib
+       FinalizeBuildStatus:
+         Файл "x64\Release\libpuzzle.unsuccessfulbuild" удаляется.
+         Обращение к "x64\Release\libpuzzle.lastbuildstate".
+     1>Построение проекта "C:\Users\IT\Documents\Visual Studio 2010\Projects\Puzzle_vs2010\libpuzzle\libpuzzle.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.98
