@@ -1,0 +1,31 @@
+﻿Сборка начата 25.04.2014 16:55:13.
+     1>Проект "C:\Users\IT\Dropbox\reinforcement\rl_lib\rl_lib\rl_lib\rl_lib.vcxproj" в узле 2 (целевые объекты rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\rl_lib.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Обращение к "Debug\rl_lib.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /doc"Debug\\" /Gd /TP /analyze- /errorReport:prompt rl.cpp RLSystem.cpp
+         RLSystem.cpp
+         rl.cpp
+         Создание кода...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\rl_lib.exe.embed.manifest.res" Debug\rl_lib_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\IT\Dropbox\reinforcement\rl_lib\rl_lib\Debug\rl_lib.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\rl_lib.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\IT\Dropbox\reinforcement\rl_lib\rl_lib\Debug\rl_lib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\IT\Dropbox\reinforcement\rl_lib\rl_lib\Debug\rl_lib.lib" /MACHINE:X86 Debug\rl_lib.exe.embed.manifest.res
+         Debug\rl.obj
+         Debug\RLSystem.obj
+       Manifest:
+         Файл "Debug\rl_lib.exe.embed.manifest" удаляется.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\rl_lib.exe.embed.manifest" /manifest Debug\rl_lib.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\rl_lib.exe.embed.manifest.res" Debug\rl_lib_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\IT\Dropbox\reinforcement\rl_lib\rl_lib\Debug\rl_lib.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\rl_lib.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\IT\Dropbox\reinforcement\rl_lib\rl_lib\Debug\rl_lib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\IT\Dropbox\reinforcement\rl_lib\rl_lib\Debug\rl_lib.lib" /MACHINE:X86 Debug\rl_lib.exe.embed.manifest.res
+         Debug\rl.obj
+         Debug\RLSystem.obj
+     1>LINK : fatal error LNK1104: не удается открыть файл "C:\Users\IT\Dropbox\reinforcement\rl_lib\rl_lib\Debug\rl_lib.ilk"
+     1>Построение проекта "C:\Users\IT\Dropbox\reinforcement\rl_lib\rl_lib\rl_lib\rl_lib.vcxproj" завершено (целевые объекты rebuild) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:01.44
